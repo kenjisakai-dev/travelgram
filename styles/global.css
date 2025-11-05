@@ -22,6 +22,12 @@
 
   --fs-md: 0.875rem;
   --fs-lg: 1.5rem;
+
+  --py-md: 1rem;
+  --py-lg: 2rem;
+
+  --px-md: 1rem;
+  --px-lg: 2rem;
 }
 
 html {
@@ -31,4 +37,14 @@ html {
 
 h1 {
   font: var(--fw-bold) var(--fs-lg) / 125% var(--ff-sans);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+
+  & img {
+    display: block;
+  }
 }
