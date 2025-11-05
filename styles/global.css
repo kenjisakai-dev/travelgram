@@ -45,20 +45,34 @@
 
 html {
   font: var(--fw-regular) var(--fs-base) / 170% var(--ff-sans);
-  color: var(--text-color-primary);
+  color: var(--text-color-secondary);
+}
+
+body {
+  background-color: var(--surface-color);
 }
 
 h1 {
   font: var(--fw-bold) var(--fs-lg) / 125% var(--ff-sans);
+  color: var(--text-color-primary);
+  margin-block: 1rem 0.5rem;
 }
 
 a {
   display: inline-block;
   text-decoration: none;
   font: var(--fw-regular) var(--fs-md) / 150% var(--ff-sans);
-  color: var(--text-color-secondary);
+  color: inherit;
 
   & img {
     display: block;
   }
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
 }
