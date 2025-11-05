@@ -17,10 +17,11 @@
 
   --ff-sans: "Poppins", sans-serif;
 
-  --fw-base: 400;
+  --fw-regular: 400;
   --fw-bold: 700;
 
-  --fs-md: 0.875rem;
+  --fs-base: 0.875rem;
+  --fs-md: 1rem;
   --fs-lg: 1.5rem;
 
   --py-md: 1rem;
@@ -30,8 +31,20 @@
   --px-lg: 2rem;
 }
 
+@media (width >= 1280px) {
+  :root {
+    --fs-lg: 2rem;
+
+    --py-md: 1.25rem;
+    --py-lg: 2rem;
+
+    --px-md: 2rem;
+    --px-lg: 2rem;
+  }
+}
+
 html {
-  font: var(--fw-base) var(--fs-md) / 170% var(--ff-sans);
+  font: var(--fw-regular) var(--fs-base) / 170% var(--ff-sans);
   color: var(--text-color-primary);
 }
 
@@ -42,7 +55,8 @@ h1 {
 a {
   display: inline-block;
   text-decoration: none;
-  color: inherit;
+  font: var(--fw-regular) var(--fs-md) / 150% var(--ff-sans);
+  color: var(--text-color-secondary);
 
   & img {
     display: block;
