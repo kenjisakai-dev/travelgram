@@ -31,8 +31,8 @@
   display: flex;
 }
 
-.wrap {
-  flex-wrap: wrap;
+.grid {
+  display: grid;
 }
 
 .gap-1 {
