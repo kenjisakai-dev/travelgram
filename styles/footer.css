@@ -14,4 +14,12 @@ footer {
       margin: 0.25rem;
     }
   }
+
+  @media (width >= 1280px) {
+    --py-md: 1.5rem;
+
+    & #terms {
+      margin-left: auto;
+    }
+  }
 }
