@@ -1,0 +1,7 @@
+#photos {
+  background-color: var(--background-color);
+
+  & img {
+    width: 100%;
+  }
+}
