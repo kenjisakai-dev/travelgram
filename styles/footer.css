@@ -1,0 +1,17 @@
+footer {
+  background-color: var(--background-color);
+
+  & a {
+    font: var(--fw-regular) var(--fs-base) / 150% var(--ff-sans);
+    text-align: center;
+  }
+
+  & #terms {
+    justify-content: center;
+
+    & a {
+      display: inline-block;
+      margin: 0.25rem;
+    }
+  }
+}
