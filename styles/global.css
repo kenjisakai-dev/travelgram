@@ -55,7 +55,12 @@ body {
 h1 {
   font: var(--fw-bold) var(--fs-lg) / 125% var(--ff-sans);
   color: var(--text-color-primary);
-  margin-block: 1rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p,
+span {
+  font: var(--fw-regular) var(--fs-base) / 170% var(--ff-sans);
 }
 
 a {
