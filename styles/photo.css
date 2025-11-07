@@ -1,6 +1,4 @@
 #photo {
-  --py-md: 1.5rem;
-
   background-color: var(--background-color);
 
   & .cards {
@@ -12,6 +10,8 @@
   }
 
   @media (width >= 1280px) {
+    --py-md: 1.5rem;
+
     & .cards {
       gap: 1.5rem;
       grid-template-columns: repeat(4, 1fr);
